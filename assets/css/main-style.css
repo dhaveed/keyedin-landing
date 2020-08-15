@@ -43,7 +43,7 @@ nav.navbar {
 .btn-primary {
   height: 42px;
   border-radius: 21px;
-  background-color: #30C57B;
+  background-color: #30c57b;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
   border: 0;
   min-width: 135px;
@@ -70,8 +70,8 @@ nav.navbar {
   min-width: 206px;
   height: 52px;
   border-radius: 26px;
-  border: solid 2px #30C57B;
-  color: #30C57B;
+  border: solid 2px #30c57b;
+  color: #30c57b;
   font-size: 16px;
   font-weight: 400;
   line-height: 31px;
@@ -79,8 +79,8 @@ nav.navbar {
 .btn.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn.btn-outline-primary:hover {
   outline: none;
-  border: solid 2px #30C57B;
-  background-color: #30C57B;
+  border: solid 2px #30c57b;
+  background-color: #30c57b;
   color: #fff;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -267,7 +267,7 @@ section.screenshots:after {
   width: 60px;
   height: 60px;
   font-size: 20px;
-  color: #30C57B;
+  color: #30c57b;
   padding: 21px 18px;
 }
 .screenshots .screenshot h3 {
@@ -400,7 +400,7 @@ section.screenshots:after {
   background-color: #ffffff;
   box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
   width: 100%;
-  border-top: 4px solid #30C57B;
+  border-top: 4px solid #30c57b;
   margin-top: -16px;
   padding: 59px;
   text-align: center;
@@ -522,4 +522,12 @@ section.screenshots:after {
 .screenshot-icon {
   height: 48px;
   width: 48px;
+}
+
+@media (max-width: 767px){
+.main_footer {
+    /* background-image: url(../icons/footer_bg_mobile.svg); */
+    margin-top: 80px;
+    height: 767px !important;
+}
 }
