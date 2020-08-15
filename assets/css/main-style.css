@@ -524,10 +524,13 @@ section.screenshots:after {
   width: 48px;
 }
 
-@media (max-width: 767px){
-.main_footer {
+@media (max-width: 767px) {
+  .main_footer {
     /* background-image: url(../icons/footer_bg_mobile.svg); */
     margin-top: 80px;
     height: 767px !important;
-}
+  }
+  .hidden-mobile {
+    display: none;
+  }
 }
