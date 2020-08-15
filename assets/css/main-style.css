@@ -18,7 +18,7 @@ section.hero {
   background-position: right;
 }
 nav.navbar {
-  margin-top: 45px;
+  /* margin-top: 45px; */
 }
 .main_logo img {
   max-width: 121px;
@@ -126,7 +126,8 @@ nav.navbar {
 }
 .hero .iphones {
   position: relative;
-  margin-top: 67px;
+  /* margin-top: 67px; */
+  margin-top: 40px;
 }
 .hero .iphones > div {
   width: 356px;
@@ -136,12 +137,21 @@ nav.navbar {
   position: absolute;
 }
 .hero .iphones .iphone_1 {
-  background-image: url(../images/hero_iphone_1.png);
+  /* background-image: url(../images/hero_iphone_1.png); */
+  background-image: url(../images/screenshot_5.png);
   top: 52px;
+  width: 300px;
+  height: 650px;
+  border-radius: 25px;
 }
 .hero .iphones .iphone_2 {
-  background-image: url(../images/hero_iphone_2.png);
+  /* background-image: url(../images/hero_iphone_2.png); */
+  background-image: url(../images/screenshot_1.png);
+  border-radius: 25px;
   left: 144px;
+  width: 300px;
+  height: 650px;
+  box-shadow: 2px 20px 40px rgba(0, 0, 0, 0.3);
 }
 .hero_row > div {
   padding: 0;
@@ -159,7 +169,8 @@ nav.navbar {
   color: #ffffff;
 }
 .hero .hero_text {
-  margin-top: 284px;
+  /* margin-top: 284px; */
+  margin-top: 200px;
 }
 .hero .hero_text p {
   font-size: 16px;
@@ -374,13 +385,14 @@ section.screenshots:after {
 .main_footer {
   background-image: url(../icons/footer_bg.svg);
   width: 100%;
-  height: 997px;
+  /* height: 997px; */
   background-repeat: no-repeat;
   float: left;
   margin-top: 130px;
   color: #fff;
   background-size: cover;
   background-position: left;
+  padding-bottom: 30px;
 }
 .main_footer .download {
   height: 340px;
@@ -392,6 +404,7 @@ section.screenshots:after {
   margin-top: -16px;
   padding: 59px;
   text-align: center;
+  padding-top: 25px;
 }
 .main_footer .download h3 {
   font-size: 24px;
@@ -505,3 +518,8 @@ section.screenshots:after {
 .modal-body .close:hover {
   outline: none;
 } /* Modal End */
+
+.screenshot-icon {
+  height: 48px;
+  width: 48px;
+}

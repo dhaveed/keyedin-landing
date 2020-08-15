@@ -25,22 +25,17 @@
     <section id="home" class="section hero">
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg"> <a class="navbar-brand main_logo" href="#"> <img
-                        src="assets/images/logo.png" alt=""> </a> <button class="navbar-toggler collapsed" type="button"
-                    data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false"
-                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        src="assets/images/ki_logo.png" alt=""> </a> <button class="navbar-toggler collapsed"
+                    type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar"
+                    aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="main_navbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"> <a class="nav-link" href="#features">Features</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown01"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01"> <a class="dropdown-item"
-                                    href="#">Our Mission</a> <a class="dropdown-item" href="#">Download the app</a> <a
-                                    class="dropdown-item" href="#">Who We are?</a> </div>
-                        </li>
-                        <li class="nav-item"> <a class="nav-link" href="#screenshots">Screenshots</a> </li>
-                        <li class="nav-item active"> <a class="nav-link" href="#news">News</a> </li><a href="#download"
-                            class="header_btn btn btn-primary btn-download">Download</a>
+                        <li class="nav-item"> <a class="nav-link" href="#home">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#features">How it works</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#screenshots">Features</a> </li>
+                        <!-- <li class="nav-item active"> <a class="nav-link" href="#news">News</a> </li> -->
+                        <a href="#download" class="header_btn btn btn-primary btn-download">Download</a>
                     </ul>
                 </div>
             </nav>
@@ -61,7 +56,8 @@
                             perfect protisans
                             or teams for the job </p>
                         <div class="buttons">
-                            <a href="#download" class="btn btn-primary btn-lg btn-download">Download the app</a>
+                            <a href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40ndy40/keyedInClient-3863ad0001b7467491a9d5e313a76e7f-signed.apk"
+                                target="_blank" class="btn btn-primary btn-lg btn-download">Download the app</a>
                             <!-- <a href="#" class="btn-icon" data-id="iol8n3m88SA" data-toggle="modal"
                                 data-target="#videoModal">
                                 <i class="fas fa-play-circle"></i> <span>Watch How it Works</span>
@@ -119,13 +115,16 @@
         <div class="container">
             <div class="screenshots_row row">
                 <div class="first">
-                    <div class="screenshot active" data-screen="0"> <i class="fab fa-audible"></i>
+                    <div class="screenshot active" data-screen="0"> <img class="screenshot-icon"
+                            src="assets/icons/route.svg" alt="">
                         <h3>Protisans near you</h3>
                         <p>Browse through and find the perfect protisan for your project near you.</p>
                     </div>
-                    <div class="screenshot" data-screen="2"> <i class="far fa-calendar-alt"></i>
+                    <div class="screenshot" data-screen="2"> <img class="screenshot-icon" src="assets/icons/chat.svg"
+                            alt="">
                         <h3>Direct Conversations</h3>
-                        <p>You can live chat (video, audio and text) with your protisans to get constant updates on the progress of your work.</p>
+                        <p>You can live chat (video, audio and text) with your protisans to get constant updates on the
+                            progress of your work.</p>
                     </div>
                 </div>
                 <div class="iphone">
@@ -139,11 +138,13 @@
                     </div>
                 </div>
                 <div class="last">
-                    <div class="screenshot" data-screen="1"> <i class="fab fa-audible"></i>
+                    <div class="screenshot" data-screen="1"> <img class="screenshot-icon" src="assets/icons/match.svg"
+                            alt="">
                         <h3>Tailored Results</h3>
                         <p>Get protisans that match your search and are tailored specifically to your project needs.</p>
                     </div>
-                    <div class="screenshot" data-screen="3"> <i class="far fa-calendar-alt"></i>
+                    <div class="screenshot" data-screen="3"> <img class="screenshot-icon" src="assets/icons/paper.svg"
+                            alt="">
                         <h3>Instant Proposals</h3>
                         <p>With KeyedIn, all you have to do is post your project, and then you start receiving proposals
                             instantly.</p>
@@ -158,14 +159,28 @@
         <div class="container">
             <div id="download" class="download">
                 <h3>Get started with the mobile app!</h3>
-                <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec
-                    pharetra id, tempor a tortor.</p>
-                <div class="download_links"> <a href="#"> <img src="assets/icons/apple_download.png" alt=""> </a> <a
-                        href="#"> <img src="assets/icons/google_play_download.png" alt=""> </a> </div>
+                <!-- <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec
+                    pharetra id, tempor a tortor.</p> -->
+                <p>Join the KeyedIn community to gain early access to hundreds of verified and highly skilled protisans
+                    around you today. KeyedIn App will be available for public download on both app stores below soon.
+                </p>
+                <div class="download_links">
+                    <a href="#"><img src="assets/icons/apple_download.png" alt=""></a>
+                    <a href="#"><img src="assets/icons/google_play_download.png" alt=""></a>
+                </div>
             </div>
-            <div class="footer_content">
-                <div class="footer_logo"> <img src="assets/images/logo.png" alt=""> </div>
-                <div class="footer_links">
+            <div class="footer_content" style="margin: 0px;">
+                <div class="footer_logo"> <img style="width: initial;" src="assets/images/ki_logo.png" alt=""> </div>
+                <!-- <div class="footer_bottom">
+                    <p>Copyright <span id="date"></span>, KeyedIn App</p>
+                    <ul class="social_links">
+                        <li><a href="https://www.instagram.com/keyedinapp/">Terms </i></a></li>
+                        <li><a href="https://www.linkedin.com/company/keyedinapp"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://facebook.com/KeyedInapp-105142397969742"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                    </ul>
+                </div> -->
+                <!-- <div class="footer_links">
                     <div>
                         <h5>FEATURES</h5>
                         <ul>
@@ -200,10 +215,19 @@
                             <li><a href="#">Videos</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="footer_bottom">
-                <p>Copyright <span id="date"></span>, KeyedIn App</p>
+                <p>
+                    KeyedIn App &copy; <span id="date"></span>
+                    <span style="margin-left: 10px; ">
+                        | <a href="#" style="margin-left: 10px; color: white; text-decoration: none; ">Terms of Use</a>
+                    </span>
+                    <span style="margin-left: 10px; ">
+                        | <a href="#" style="margin-left: 10px; color: white; text-decoration: none; ">Privacy
+                            Policy</a>
+                    </span>
+                </p>
                 <ul class="social_links">
                     <li><a href="https://www.instagram.com/keyedinapp/"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://www.linkedin.com/company/keyedinapp"><i class="fab fa-linkedin"></i></a></li>
